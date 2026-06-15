@@ -52,7 +52,6 @@ void loop() {
   lcd.print("Alcohol: ");
   lcd.print(porcentaje, 2); //Muestra con 2 decimales
   lcd.print("%");
-  //lcd.setCursor(0, 1);
 
   if(valor_alcohol > valor_limite){
     digitalWrite(ledPIN , HIGH); //Encender Led Rojo
